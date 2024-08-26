@@ -1,3 +1,4 @@
+## Initial Access, Discovery, and Defense Evasion
 ```
 Can you tell me more about DefenseEvasion: a process was injected with potentially malicious code on 'mb-winclient' (Windows10), involving the files 'ContosoADFSadmincreds.ps1', 'Midnight161.ps1'
 ```
