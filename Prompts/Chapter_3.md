@@ -20,3 +20,21 @@ Can you run the following KQL then examine its output? Please pay extra attentio
 In your incident summary, you mentioned that "At 2024-08-06 17:17:07 UTC, a suspected DCSync attack (replication of directory services) was detected on 'mb-winclient' (Windows 10), impacting user 'pgustavo'." What's a DCSync attack? Can you provide its TTPs?
 ```
 ---
+```
+Is it common for a regular user on a Windows 10 device to sent a replication request to a DC? 
+```
+---
+## Lateral Movement
+```
+Can you tell me more about the Impacket tool? Where is it used most often? How is it exploited by attackers? 
+```
+---
+## Persistence
+```
+Can you decode then tell me more about this service path: %COMSPEC% /C “powershell.exe -EncodedCommand QwA6AFwAUwBjAHIAaQBwAHQAcwBcAFIAZQBuAGEAbQBlAFAAbwB3AGUAcgBzAGgAZQBsAGwALgBwAHMAMQA=” 
+```
+---
+```
+Can you explain in more detail about the following event: services.exe modified service image file from to %COMSPEC% /C "powershell.exe -EncodedCommand QwA6AFwAUwBjAHIAaQBwAHQAcwBcAFIAZQBuAGEAbQBlAFAAbwB3AGUAcgBzAGgAZQBsAGwALgBwAHMAMQA=" for service WDUAPJKVADPWOQLFGQSH 
+```
+---
