@@ -5,4 +5,6 @@ This repository contains all the prompts, scripts, and miscellaneous material fr
 ## Prompts
 
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_1.md" target="_blank">Chapter 1</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_3.md" target="_blank">Chapter 3</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_4.md" target="_blank">Chapter 4</a>
 
