@@ -13,3 +13,7 @@ This repository contains all the prompts, scripts, and miscellaneous material fr
 * <a href="https://rodtrent.substack.com/p/copilot-for-security-activity-all" target="_blank">Copilot for Security Activity All-in-One Custom Plugin</a>
 * <a href="https://rodtrent.substack.com/p/using-ip-api-with-copilot-for-security" target="_blank">Use IP-API with Copilot for Security</a>
 * <a href="https://rodtrent.substack.com/p/plugin-whois-services-for-copilot" target="_blank">WHOIS Services for Copilot for Security</a>
+
+## YAML file from Chapter 4
+
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Other/MyYMLTest.yml" target="_blank">MyYMLTest.yml</a>
