@@ -1,0 +1,24 @@
+Descriptor:
+  Name: MyTestPlugin
+  DisplayName: Test Plugin for Copilot Book
+  Description:  This is a test for our Copilot for Security book developed by Bi Yue Xu
+
+SkillGroups:
+  - Format: KQL
+    Skills:
+      - Name: ListDownloadedFiles
+        DisplayName: List files downloaded
+        Description: List files downloaded to this device in the last 3 days with the device name as the input
+        Inputs:
+          - Name: devicename
+            Description: Provide the name of the device you want to look for file download activities
+            Required: true
+        Settings:
+          Target: Defender
+          Template: |-
+           DeviceFileEvents
+           | where DeviceName contains '{{devicename}}'
+           | where Timestamp > ago(3d)
+           | where isnotempty(FileOriginUrl) and ActionType == "FileCreated"
+           | project Timestamp, DeviceName, ActionType, FileName, FolderPath, FileOriginUrl, InitiatingProcessFileName, InitiatingProcessAccountName, InitiatingProcessCommandLine
+           | sort by Timestamp desc 
