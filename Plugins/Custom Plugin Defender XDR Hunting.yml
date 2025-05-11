@@ -1,0 +1,144 @@
+Descriptor:
+  Name: Hunting
+  DisplayName: Custom Plugin Defender XDR Hunting
+  Description:  Hunting in Defender XDR, developed by Bi Yue Xu.
+
+SkillGroups:
+  - Format: KQL
+    Skills:
+      - Name: IPtoDevice
+        DisplayName: IP - Find Device Based on Assigned IP
+        Description: Identifies the device associated with this IP in the specific timeframe, in past 30 days.
+        Inputs:
+          - Name: IP
+            Description: Provide an IP address
+            Required: true
+          - Name: starttime
+            Description: Provide a start time in UTC e.g. Oct 3, 2024 18:00 or 2024-10-03 18:00
+            Required: true  
+          - Name: endtime
+            Description: Provide an end time in UTC e.g. Oct 3, 2024 18:00 or 2024-10-03 18:00
+            Required: true            
+        Settings:
+          Target: Defender
+          Template: |-
+           DeviceNetworkInfo
+           | extend StartTime = datetime('{{starttime}}')
+           | extend EndTime = datetime('{{endtime}}')
+           | where Timestamp between (StartTime .. EndTime)
+           | search '{{IP}}'
+           | project Timestamp, DeviceName, IPAddresses, IPv4Dhcp, DnsAddresses, DefaultGateways, ConnectedNetworks
+           
+      - Name: IPUsedInRDP
+        DisplayName: IP - IP and Device Used in RDP
+        Description: Identifies IP including its device name that initiated the RDP session in specific timeframe, in past 30 days.
+        Inputs:
+          - Name: IP
+            Description: Provide an IP address
+            Required: true
+          - Name: starttime
+            Description: Provide a start time in UTC e.g. Oct 3, 2024 18:00 or 2024-10-03 18:00
+            Required: true  
+          - Name: endtime
+            Description: Provide an end time in UTC e.g. Oct 3, 2024 18:00 or 2024-10-03 18:00
+            Required: true            
+        Settings:
+          Target: Defender
+          Template: |-
+           union DeviceProcessEvents, DeviceFileEvents, DeviceNetworkEvents, DeviceRegistryEvents, DeviceEvents, DeviceLogonEvents, DeviceImageLoadEvents
+           | extend StartTime = datetime('{{starttime}}')
+           | extend EndTime = datetime('{{endtime}}')
+           | where Timestamp between (StartTime .. EndTime)
+           | search '{{IP}}'
+           | summarize count() by Type, DeviceName, InitiatingProcessRemoteSessionIP, InitiatingProcessRemoteSessionDeviceName, ProcessRemoteSessionIP, ProcessRemoteSessionDeviceName
+
+      - Name: FileInDeviceEvents
+        DisplayName: File - Any Device Events Related To This File
+        Description: Display device events that include the filename, in specific timeframe, in past 30 days.
+        Inputs:
+          - Name: filename
+            Description: Provide the file name you want to search, e.g. DomainDominance198
+            Required: true            
+          - Name: starttime
+            Description: Provide a start time in UTC e.g. Oct 3, 2024 18:00 or 2024-10-03 18:00
+            Required: true  
+          - Name: endtime
+            Description: Provide an end time in UTC e.g. Oct 3, 2024 18:00 or 2024-10-03 18:00
+            Required: true            
+        Settings:
+          Target: Defender
+          Template: |-
+           union DeviceProcessEvents, DeviceFileEvents, DeviceNetworkEvents, DeviceRegistryEvents, DeviceEvents, DeviceLogonEvents, DeviceImageLoadEvents
+           | extend StartTime = datetime('{{starttime}}')
+           | extend EndTime = datetime('{{endtime}}')
+           | where Timestamp between (StartTime .. EndTime)
+           | search '{{filename}}'
+
+      - Name: FileOrigin
+        DisplayName: File - File Origin
+        Description: Display the origin or source of the file, in past 30 days.
+        Inputs:
+          - Name: filename
+            Description: Provide the file name, e.g. DomainDominance198.ps1
+            Required: true                       
+        Settings:
+          Target: Defender
+          Template: |-
+           DeviceFileEvents
+           | where FileName contains '{{filename}}'
+           | where Timestamp > ago(30d)
+           | project Timestamp, DeviceName, FileName, FileOriginUrl, FileOriginReferrerUrl
+           | sort by Timestamp desc
+           
+      - Name: ProcessDetailedExecution
+        DisplayName: Process - Detailed Process Events
+        Description: Detailed specific process execution events on device within a defined time frame.
+        Inputs:
+          - Name: processname
+            Description: Provide the process name e.g. powershell
+            Required: true  
+          - Name: devicename
+            Description: Provide the device name, e.g. vnevado-win10b
+            Required: true              
+          - Name: starttime
+            Description: Provide a start time in UTC e.g. Oct 3, 2024 18:00 or 2024-10-03 18:00
+            Required: true  
+          - Name: endtime
+            Description: Provide an end time in UTC e.g. Oct 3, 2024 18:00 or 2024-10-03 18:00
+            Required: true            
+        Settings:
+          Target: Defender
+          Template: |-
+           DeviceProcessEvents
+           | extend StartTime = datetime('{{starttime}}')
+           | extend EndTime = datetime('{{endtime}}')
+           | where Timestamp between (StartTime .. EndTime)
+           | where DeviceName contains '{{devicename}}'
+           | where FileName contains '{{processname}}' or InitiatingProcessFileName contains '{{processname}}'
+           | project Timestamp, DeviceName, AccountName, ActionType, ProcessName = FileName, ProcessCommandLine, InitiatingProcessFileName, InitiatingProcessCommandLine, InitiatingProcessAccountName
+           | sort by Timestamp asc
+    
+      - Name: DetailedPowerShellExecution
+        DisplayName: Process - Detailed PowerShell Execution
+        Description: Display detailed PowerShell execution events on this device, in specific timeframe, in past 30 days.
+        Inputs:
+          - Name: devicename
+            Description: Provide the device name
+            Required: true              
+          - Name: starttime
+            Description: Provide a start time in UTC e.g. Oct 3, 2024 18:00 or 2024-10-03 18:00
+            Required: true  
+          - Name: endtime
+            Description: Provide an end time in UTC e.g. Oct 3, 2024 18:00 or 2024-10-03 18:00
+            Required: true            
+        Settings:
+          Target: Defender
+          Template: |-
+           DeviceEvents
+           | extend StartTime = datetime('{{starttime}}')
+           | extend EndTime = datetime('{{endtime}}')
+           | where Timestamp between (StartTime .. EndTime)
+           | where DeviceName contains '{{devicename}}'
+           | where ActionType == "PowerShellCommand" 
+           | project Timestamp, InitiatingProcessFileName, InitiatingProcessCommandLine, AdditionalFields, InitiatingProcessAccountName
+           | sort by Timestamp asc 
