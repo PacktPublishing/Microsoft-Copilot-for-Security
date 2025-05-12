@@ -4,6 +4,8 @@
 
 **Required Input**: < Device Name, Start Time, End Time >
 
+**Promptbook prompts**:
+
 1. 
  ```
 /ListFilesDownloaded List the files downloaded to device DeviceName from StartTime to EndTime and state where the files were downloaded from.
