@@ -4,6 +4,9 @@
 
 **Required Input**: < device name >
 
+**Promptbook prompts**:
+
+
 1. 
  ```
 Invoke "Device OS Information" skill in the "Custom Plugin Defender Device Info" plugin for device <device_name>
