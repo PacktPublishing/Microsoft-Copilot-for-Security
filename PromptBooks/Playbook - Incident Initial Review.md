@@ -4,6 +4,8 @@
 
 **Required Input**: < Incident ID Number >
 
+**Promptbook prompts**:
+
 1. 
  ```
 Summarize incident <Incident_ID>
