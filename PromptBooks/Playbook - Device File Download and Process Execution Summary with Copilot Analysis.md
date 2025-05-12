@@ -4,6 +4,8 @@
 
 **Required Input**: < start time, end time, device name >
 
+**Promptbook prompts**:
+
 1. 
  ```
 Can you run the following KQL query to report file download activities? Here is the KQL query: let STime = start_time; let ETime = end_time; DeviceFileEvents | extend StartTime = datetime(STime) | extend EndTime = datetime(ETime) | where Timestamp between (StartTime .. EndTime) | where DeviceName contains "device_name" | where isnotempty(FileOriginUrl) and ActionType == "FileCreated" | project Timestamp, DeviceName, FileName, FolderPath, FileOriginUrl, InitiatingProcessFileName, InitiatingProcessAccountName, InitiatingProcessCommandLine | sort by Timestamp desc
