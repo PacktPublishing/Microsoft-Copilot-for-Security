@@ -4,6 +4,8 @@
 
 **Required Input**: < device name >
 
+**Promptbook prompts**:
+
 1. 
  ```
 Invoke "Suspicious Activities - ASR Rules Triggered" skill in the "Custom Plugin Defender Device Investigation" plugin for device <device_name>
