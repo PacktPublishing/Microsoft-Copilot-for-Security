@@ -5,6 +5,7 @@
 **Required Input**: < Device Name, Start Time, End Time >
 
 **Promptbook prompts**:
+
 1. 
  ```
 /DetailedPowerShellExecution for device device_name from start_time to end_time
