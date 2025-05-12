@@ -1,6 +1,6 @@
 # Playbook - Device Process Events 
 
-**Description**: Lists device process execution summary and detailed process execution events.
+**Description**: Identifies file download events, then lists device process execution summary and detailed process execution events.
 
 **Required Input**: < start time, end time and device name >
 
