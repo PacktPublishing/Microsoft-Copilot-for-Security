@@ -1,4 +1,20 @@
 ```
+Can you run the following KQL query: DeviceEvents | where Timestamp > ago (1h) and InitiatingProcessFileName contains "powershell" | where ActionType == "PowerShellCommand" | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, AdditionalFields, InitiatingProcessAccountName | sort by Timestamp asc
+```
+---
+```
+Evaluate the previous PowerShell events from the KQL result, and identify if there is any suspicious PowerShell events. Provide your finding in a conclusion.
+```
+---
+```
+If the previous response indicates suspicious activities found, your output should contain only one phrase: "threat found". Otherwise your output should contain the phrase: "no threat found". Please do not include any other response in the output.
+```
+---
+```
+Based on your previous analysis of PowerShell events, can you draft an email to let the SOC analyst know about the suspicious events
+```
+---
+```
 Can you list the IOCs in "Cobalt Strike.docx" from the uploaded files?
 ```
 ---
