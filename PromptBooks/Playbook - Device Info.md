@@ -2,7 +2,7 @@
 
 **Description**: Gathers device information that is often needed during an investigation
 
-**Required Input**: < device name >
+**Required Input**: device_name
 
 **Promptbook prompts**:
 
