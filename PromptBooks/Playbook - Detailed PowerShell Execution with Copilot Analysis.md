@@ -2,13 +2,13 @@
 
 **Description**: This promptbook pulls the detailed PowerShell execution events then asks Security Copilot to analyze them.
 
-**Required Input**: <device_name> <start_time> <end_time >
+**Required Input**: device_name, start_time, end_time
 
 **Promptbook prompts**:
 
 1. 
  ```
-/DetailedPowerShellExecution for device device_name from start_time to end_time
+/DetailedPowerShellExecution for device <device_name> from <start_time> to <end_time>
  ```
 2.  
  ```
