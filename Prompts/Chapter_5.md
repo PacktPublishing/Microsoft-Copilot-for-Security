@@ -103,6 +103,10 @@ Is it common for a regular user on a Windows 10 device to send a replication req
 ```
 ---
 ```
+List the recent phishing campaigns targeting our organization and outline the measures taken to counter them.
+```
+---
+```
 Can you run the following KQL query then examine its output, especially the process command line output, to look for any encoded command line? Here is the KQL query: DeviceProcessEvents | where Timestamp between (datetime(2024-06-25) .. datetime(2024-06-27)) | where InitiatingProcessFileName contains "powershell.exe" and FileName contains "schtasks.exe" and DeviceName contains "avoriaz- win10e" | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, FileName, ProcessCommandLine
 ```
 ---
@@ -124,8 +128,18 @@ and identify the applications or services that are open and actively waiting for
 ```
 ---
 ```
+/AnalyzeSecurityData The request is identify suspicious PowerShell execution activities. Input data is PowerShell execution activities from your previous output.
+```
+---
+```
 Can you run the following KQL query to report on file download activities? Then examine its output. Here is the KQL query: DeviceFileEvents | where Timestamp between (datetime(2024-10-03) .. datetime(2024-10-04)) | where DeviceName contains "ash-irvins1"| where isnotempty(FileOriginUrl) and ActionType == "FileCreated"| project Timestamp, DeviceName, ActionType, FileName, FolderPath, FileOriginUrl, InitiatingProcessFileName, InitiatingProcessAccountName, InitiatingProcessCommandLine | sort by Timestamp desc
 ```
 ---
-
-
+```
+Using the Microsoft Defender XDR plugin, list the total number of incidents that were resolved in the last 7 days.
+```
+---
+```
+For the past 25 days, based on the sign-in activity for user Lee Gu, can you provide the date and time when user Lee Gu signed in from IP 137.117.84.85?
+```
+---
