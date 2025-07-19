@@ -55,7 +55,7 @@ Can you provide details on the security incident involving the 'vnevado-win10r' 
 ```
 ---
 ```
-Give me an overview of the latest malware threats.
+Give me an overview of one of the latest malware threats targeting my organization.
 ```
 ---
 ```
