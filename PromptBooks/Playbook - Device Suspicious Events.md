@@ -2,7 +2,7 @@
 
 **Description**: Provides some of the suspicious events reported on a device
 
-**Required Input**: < device name >
+**Required Input**: device_name
 
 **Promptbook prompts**:
 
