@@ -2,7 +2,7 @@
 
 **Description**: Report on files downloaded to the device. Then, request Security Copilot to identify any suspicious process executions on this device.
 
-**Required Input**: < Device Name, Start Time, End Time >
+**Required Input**: <DeviceName> <StartTime> <EndTime>
 
 **Promptbook prompts**:
 
