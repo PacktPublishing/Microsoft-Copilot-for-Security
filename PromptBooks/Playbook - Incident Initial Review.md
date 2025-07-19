@@ -2,7 +2,7 @@
 
 **Description**: Provides a summary of the incident and the associated suspicious entities
 
-**Required Input**: < Incident ID Number >
+**Required Input**: Incident_ID
 
 **Promptbook prompts**:
 
