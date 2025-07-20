@@ -4,8 +4,9 @@
 This query retrieves Security Copilot audit log events then filters these events to show only the CopilotInteraction logs.
 
 ## Query
-```KQL
+```kql
 // User Security Copilot Interaction
+CloudAppEvents
 | extend AppId = parse_json(RawEventData)["AppIdentity"] 
 | where AppId == "Copilot.Security.SecurityCopilot"
 | extend EventType = parse_json(RawEventData)["Operation"]
