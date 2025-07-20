@@ -1,12 +1,12 @@
 Name: User Security Copilot Interaction
-description: |
+Description: |
   This query retrieves Security Copilot audit log events then filters these events to show only the CopilotInteraction logs
-requiredDataConnectors:
+RequiredDataConnectors:
 - connectorId: MicrosoftThreatProtection
   dataTypes:
   - CloudAppEvents
-
 query: |
+
 // User Security Copilot Interaction
 CloudAppEvents
 | extend AppId = parse_json(RawEventData)["AppIdentity"] 
