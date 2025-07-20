@@ -1,15 +1,11 @@
-Name: User Security Copilot Interaction
-Description:
-  This query retrieves Security Copilot audit log events then filters these events to show only the CopilotInteraction logs
-RequiredDataConnectors:
-- connectorId: MicrosoftThreatProtection
-  dataTypes:
-  - CloudAppEvents
+# User Security Copilot Interaction
 
-Query:
+## Description
+This query retrieves Security Copilot audit log events then filters these events to show only the CopilotInteraction logs.
 
+## Query
+```KQL
 // User Security Copilot Interaction
-CloudAppEvents
 | extend AppId = parse_json(RawEventData)["AppIdentity"] 
 | where AppId == "Copilot.Security.SecurityCopilot"
 | extend EventType = parse_json(RawEventData)["Operation"]
@@ -21,3 +17,4 @@ CloudAppEvents
 | extend CopilotExperience = parse_json(Events)["AppHost"]
 | project Time, User, EventType, CopilotExperience, UserIP, City, CountryCode, ISP
 | sort by Time desc 
+```
