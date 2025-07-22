@@ -1,7 +1,89 @@
-# Welcome to the GitHub Repo for Microsoft Security Copilot from Packt Publishing!
+<h1 align="center">
+Microsoft Security Copilot, First Edition</h1>
+<p align="center">This is the code repository for <a href ="https://www.packtpub.com/en-us/product/microsoft-security-copilot-first-edition/9781835884522"> Microsoft Security Copilot, First Edition</a>, published by Packt.
+</p>
 
-This repository contains all the prompts, scripts, and miscellaneous material from the book written by <a href="https://www.linkedin.com/in/biyuexu/" target="_blank">Bi Yue Xu</a> and <a href="https://www.linkedin.com/in/rodtrent/" target="_blank">Rod Trent</a>.
+<h2 align="center">
+Master strategies for AI-driven cyber defense
+</h2>
+<p align="center">
+Bi Yue Xu, Rod Trent</p>
 
+<p align="center">
+   <a href="" alt="Discord" title="Learn more on the Discord server"><img width="32px" src="https://cliply.co/wp-content/uploads/2021/08/372108630_DISCORD_LOGO_400.gif"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://packt.link/free-ebook/9781835884522"><img width="32px" alt="Free PDF" title="Free PDF" src="https://cdn-icons-png.flaticon.com/512/4726/4726010.png"/></a>
+ &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://packt.link/gbp/9781835884522"><img width="32px" alt="Graphic Bundle" title="Graphic Bundle" src="https://cdn-icons-png.flaticon.com/512/2659/2659360.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+   <a href="https://www.amazon.com/Microsoft-Security-Copilot-strategies-AI-driven-ebook/dp/B0F133S3X2"><img width="32px" alt="Amazon" title="Get your copy" src="https://cdn-icons-png.flaticon.com/512/15466/15466027.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+</p>
+<details open> 
+  <summary><h2>About the book</summary>
+<a href="https://www.packtpub.com/product/unity-cookbook-fifth-edition/9781805123026">
+<img src="https://content.packt.com/B22283/cover_image_small.jpg" alt="Unity Cookbook, Fifth Edition" height="256px" align="right">
+</a>
+
+Be at the forefront of cybersecurity innovation with Microsoft Security Copilot, where advanced AI tackles the intricate challenges of digital defense. This book unveils Security Copilot’s powerful features, from AI-powered analytics revolutionizing security operations to comprehensive orchestration tools streamlining incident response and threat management. Through real-world case studies and frontline stories, you’ll learn how to truly harness AI advancements and unlock the full potential of Security Copilot within the expansive Microsoft ecosystem.
+Designed for security professionals navigating increasingly sophisticated cyber threats, this book equips you with the skills to accelerate threat detection and investigation, refine your security processes, and optimize cyber defense strategies.
+By the end of this book, you’ll have become a Security Copilot ninja, confidently crafting effective prompts, designing promptbooks, creating custom plugins, and integrating logic apps for enhanced automation.</details>
+<details open> 
+  <summary><h2>Key Learnings</summary>
+<ul>
+
+<li>Navigate and use the complete range of features in Microsoft Security Copilot</li>
+
+<li>Unlock the full potential of Security Copilot's diverse plugin ecosystem</li>
+
+<li>Strengthen your prompt engineering skills by designing impactful and precise prompts</li>
+
+<li>Create and optimize promptbooks to streamline security workflows</li>
+
+<li>Build and customize plugins to meet your organization's specific needs</li>
+
+<li>See how AI is transforming threat detection and response for the new era of cyber defense</li>
+
+<li>Understand Security Copilot's pricing model for cost-effective solutions</li>
+
+</ul>
+
+  </details>
+
+<details open> 
+  <summary><h2>Chapters</summary>
+     <img src="https://cliply.co/wp-content/uploads/2020/02/372002150_DOCUMENTS_400px.gif" alt="Unity Cookbook, Fifth Edition" height="556px" align="right">
+<ol>
+
+  <li>Elevating Cyber Defense with Security Copilot</li>
+
+  <li>Unveiling Security Copilot through Its Embedded Experience</li>
+
+  <li>Navigating the Security Copilot Platform</li>
+
+  <li>Extending Security Copilot's Capabilities with Plugins</li>
+
+  <li>The Art of Prompt Engineering</li>
+
+  <li>The Power of Promptbooks in Security Copilot</li>
+
+  <li>Automation and Integration – The Next Frontier</li>
+
+  <li>Cyber Sleuthing with Security Copilot</li>
+
+  <li>Harnessing Security Copilot within the Microsoft Ecosystem</li>
+
+  <li>Frontline Tales with Security Copilot</li>
+
+  <li>The Pricing Model in Security Copilot</li>
+
+</ol>
+
+</details>
+
+
+<details open> 
+  <summary><h2>Instrcutions</summary>
 ## Sample Prompts
 
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_1.md" target="_blank">Chapter 1</a>
@@ -46,3 +128,29 @@ This repository contains all the prompts, scripts, and miscellaneous material fr
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/KQL/User%20Security%20Copilot%20Interaction%20for%20Specific%20User.md" target="_blank">User Security Copilot Interaction for Specific User</a>
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/KQL/Summarize%20Security%20Copilot%20User%20Interaction.md" target="_blank">Summarize Security Copilot User Interaction</a>
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/KQL/Other%20Security%20Copilot%20Events%20Excluding%20User%20Interaction.md" target="_blank">Other Security Copilot Events Excluding User Interaction</a>
+
+  </details>
+    
+
+
+<details> 
+  <summary><h2>Get to know Authors</h2></summary>
+
+_Bi Yue Xu_ is a seasoned Principal Security Cloud Solution Architect at Microsoft, with over 15 years of experience in cybersecurity. Specializing in Digital Forensics and Incident Response, she is a Certified Windows Forensics Examiner (EnCE) and holds multiple security certifications, including GREM, GCFA, GCIA, GWAPT, GCWN, SC100, SC200, SC900, and others. Bi Yue's expertise is showcased in her work, from designing and developing a comprehensive four-day Defender for Endpoint training course, which has been delivered to over 300 organizations across 44 countries since its inception two years ago, to creating custom KQL detection and hunting queries, and even uncovering attacks related to zero-day.
+
+_Rod Trent_ is a Senior Product Manager for Microsoft, where he focuses on the intersection between Security and AI. In his spare time, Rod writes KQL queries, authors fiction and nonfiction books, shares proud stories about his grandkids, boasts about his Six Million Dollar Man addiction, and teaches AI to behave. 
+
+
+
+</details>
+<details> 
+  <summary><h2>Other Related Books</h2></summary>
+<ul>
+
+  <li><a href="https://www.packtpub.com/en-us/product/microsoft-security-compliance-and-identity-fundamentals-exam-ref-sc-900-first-edition/9781801815994">Microsoft Security, Compliance, and Identity Fundamentals Exam Ref SC-900, First Edition</a></li>
+
+  <li><a href="https://www.packtpub.com/en-us/product/microsoft-identity-and-access-administrator-sc-300-exam-guide-second-edition/9781836200390">Microsoft Identity and Access Administrator SC-300 Exam Guide, Second Edition</a></li>
+ 
+</ul>
+
+</details>
