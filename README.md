@@ -8,6 +8,12 @@ This repository contains all the prompts, scripts, and miscellaneous material fr
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_3.md" target="_blank">Chapter 3</a>
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_4.md" target="_blank">Chapter 4</a>
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_5.md" target="_blank">Chapter 5</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_6.md" target="_blank">Chapter 6</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_7.md" target="_blank">Chapter 7</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_8.md" target="_blank">Chapter 8</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_9.md" target="_blank">Chapter 9</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_10.md" target="_blank">Chapter 10</a>
+
 
 ## Custom Plugin Examples from Chapter 4
 
