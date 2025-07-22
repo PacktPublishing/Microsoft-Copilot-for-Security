@@ -23,6 +23,7 @@ This repository contains all the prompts, scripts, and miscellaneous material fr
 
 ## YAML files
 
-* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Other/MyYMLTest.yml" target="_blank">MyTestPlugin from Chapter 4</a>
-* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Plugins/device%20-%20info.yml" target="_blank">DeviceInformation from Chapter 5</a>
-* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Plugins/playbook%20-%20device.yml" target="_blank">Copilot_IR_Playbook-Device from Chapter 5</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Plugins/MyYMLTest.yml" target="_blank">MyTestPlugin</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Plugins/Custom%20Plugin%20Defender%20Device%20Investigation.yml" target="_blank">Custom Plugin for Defender Device Investigation</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Plugins/Custom%20Plugin%20Defender%20XDR%20Hunting.yml" target="_blank">Custom Plugin for Defender XDR Hunting</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Plugins/Custom%20Plugin%20Defender%20Device%20Info.yml" target="_blank">Custom Plugin for Defender Device Info</a>
