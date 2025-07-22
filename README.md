@@ -14,8 +14,20 @@ This repository contains all the prompts, scripts, and miscellaneous material fr
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_9.md" target="_blank">Chapter 9</a>
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_10.md" target="_blank">Chapter 10</a>
 
+## Sample Promptbooks
 
-## Custom Plugin Examples from Chapter 4
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Playbook%20-%20Detailed%20PowerShell%20Execution%20with%20Copilot%20Analysis.md" target="_blank">Detailed PowerShell Execution with Copilot Analysis</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Playbook%20-%20Device%20File%20Download%20and%20Process%20Execution%20Summary%20with%20Copilot%20Analysis%20(Referencing%20Plugin%20Skills).md" target="_blank">Device File Download and Process Execution Summary with Copilot Analysis (Referencing Plugin Skills)</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Playbook%20-%20Device%20File%20Download%20and%20Process%20Execution%20Summary%20with%20Copilot%20Analysis.md" target="_blank">Device File Download and Process Execution Summary with Copilot Analysis</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Playbook%20-%20Device%20Info.md" target="_blank">Device Info</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Playbook%20-%20Device%20Process%20Events.md" target="_blank">Device Process Execution Events</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Playbook%20-%20Device%20Suspicious%20Events.md" target="_blank">Device Suspicious Events</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Device%20Outbound%20Traffic%20with%20Copilot%20Analysis%20on%20IPs%20and%20URLs.md" target="_blank">Device Outbound Traffic with Copilot Analysis on IPs and URLs</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Playbook%20-%20Incident%20Initial%20Review.md" target="_blank">Incident Initial Review</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Defender%20Incident%20Insights.md" target="_blank">Defender Incident Insights</a>
+
+
+## Custom Plugin Examples
 
 * <a href="https://rodtrent.substack.com/p/copilot-for-security-activity-all" target="_blank">Copilot for Security Activity All-in-One Custom Plugin</a>
 * <a href="https://rodtrent.substack.com/p/using-ip-api-with-copilot-for-security" target="_blank">Use IP-API with Copilot for Security</a>
