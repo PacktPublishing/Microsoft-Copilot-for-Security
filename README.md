@@ -33,9 +33,16 @@ This repository contains all the prompts, scripts, and miscellaneous material fr
 * <a href="https://rodtrent.substack.com/p/using-ip-api-with-copilot-for-security" target="_blank">Use IP-API with Copilot for Security</a>
 * <a href="https://rodtrent.substack.com/p/plugin-whois-services-for-copilot" target="_blank">WHOIS Services for Copilot for Security</a>
 
-## YAML files
+## YAML Files
 
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Plugins/MyYMLTest.yml" target="_blank">MyTestPlugin</a>
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Plugins/Custom%20Plugin%20Defender%20Device%20Investigation.yml" target="_blank">Custom Plugin for Defender Device Investigation</a>
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Plugins/Custom%20Plugin%20Defender%20XDR%20Hunting.yml" target="_blank">Custom Plugin for Defender XDR Hunting</a>
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Plugins/Custom%20Plugin%20Defender%20Device%20Info.yml" target="_blank">Custom Plugin for Defender Device Info</a>
+
+## KQL Queries
+
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/KQL/User%20Security%20Copilot%20Interaction.md" target="_blank">User Security Copilot Interaction</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/KQL/User%20Security%20Copilot%20Interaction%20for%20Specific%20User.md" target="_blank">User Security Copilot Interaction for Specific User</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/KQL/Summarize%20Security%20Copilot%20User%20Interaction.md" target="_blank">Summarize Security Copilot User Interaction</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/KQL/Other%20Security%20Copilot%20Events%20Excluding%20User%20Interaction.md" target="_blank">Other Security Copilot Events Excluding User Interaction</a>
