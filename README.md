@@ -107,7 +107,8 @@ By the end of this book, you’ll have become a Security Copilot ninja, confiden
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Device%20Outbound%20Traffic%20with%20Copilot%20Analysis%20on%20IPs%20and%20URLs.md" target="_blank">Device Outbound Traffic with Copilot Analysis on IPs and URLs</a>
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Playbook%20-%20Incident%20Initial%20Review.md" target="_blank">Incident Initial Review</a>
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Defender%20Incident%20Insights.md" target="_blank">Defender Incident Insights</a>
-
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Check%20Reputation%20of%20Each%20Process%20Ran%20on%20Device.md" target="_blank">Check Reputation of Each Process Ran on Device</a>
+* <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/PromptBooks/Check%20Reputation%20of%20Each%20File%20Created%20on%20Device.md" target="_blank">Check Reputation of Each File Created on Device</a>
 
 ## Custom Plugin Examples
 
