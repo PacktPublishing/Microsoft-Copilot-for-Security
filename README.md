@@ -83,7 +83,7 @@ By the end of this book, you’ll have become a Security Copilot ninja, confiden
 
 
 <details open> 
-  <summary><h2>Instrcutions</summary>
+  <summary><h2>Instructions</summary>
 ## Sample Prompts
 
 * <a href="https://github.com/PacktPublishing/Microsoft-Copilot-for-Security/blob/main/Prompts/Chapter_1.md" target="_blank">Chapter 1</a>
